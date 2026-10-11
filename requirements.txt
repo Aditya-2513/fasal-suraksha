@@ -1,36 +1,37 @@
 # --- Core Streamlit ---
-streamlit==1.39.0
-streamlit-webrtc==0.47.9
-streamlit-aggrid==1.0.5
+streamlit
+streamlit-webrtc
+streamlit-aggrid
 
-# --- Machine Learning & Computer Vision ---
-torch==2.4.1
-torchvision==0.19.1
-opencv-python-headless==4.10.0.84
-Pillow==10.4.0
-numpy==1.26.4
-scipy==1.14.1
+# --- Machine Learning (CPU) & Computer Vision ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+opencv-python-headless
+Pillow
+numpy
+scipy
 
 # --- ML & Tabular Models ---
-xgboost==2.1.1
-scikit-learn==1.5.2
-pandas==2.2.3
-joblib==1.4.2
+xgboost
+scikit-learn
+pandas
+joblib
 
 # --- PDF Generation & Utilities ---
-reportlab==4.2.2
-fpdf2==2.8.1
-matplotlib==3.9.2
-seaborn==0.13.2
+reportlab
+fpdf2
+matplotlib
+seaborn
 
 # --- Notifications & Communication ---
-twilio==9.3.3
-requests==2.32.3
+twilio
+requests
 
 # --- Audio & Speech ---
-gTTS==2.5.3
-pydub==0.25.1
+gTTS
+pydub
 
 # --- Validation & Config ---
-pydantic==2.9.2
-python-dotenv==1.0.1
+pydantic
+python-dotenv
