@@ -24,7 +24,8 @@ fpdf2
 matplotlib
 seaborn
 
-# --- Notifications & Communication ---
+# --- Network & Communication ---
+httpx
 twilio
 requests
 
