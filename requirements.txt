@@ -26,13 +26,14 @@ seaborn
 
 # --- Network & Communication ---
 httpx
-twilio
 requests
+twilio
 
 # --- Audio & Speech ---
 gTTS
 pydub
 
-# --- Validation & Config ---
+# --- Logging, Validation & Config ---
+loguru
 pydantic
 python-dotenv
